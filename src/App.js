@@ -133,23 +133,21 @@ class App extends Component {
           <h3>Strona w przygotowaniu</h3>
             <div className="projectsWrap">
               <div className="project-first">
-              <a href="https://rafalkuchta.github.io/App-weather-fetch/">
-                  <img src="/project-1st.jpg" alt="project-first"/>
-                </a>
+              <a href="https://rafalkuchta.github.io/App-weather-fetch/"><img src="project-1st.jpg" alt="project-first"/></a>
               </div>
               <div className="project-secound">
               <a href="https://rafalkuchta.github.io/to-do-list-2/">
-                <img src="/project-2th.jpg" alt="project-2th"/>
+                <img src="project-2th.jpg" alt="project-2th"/>
               </a>
               </div>
               <div className="project-third">
               <a href="https://rafalkuchta.github.io/React-router-app/">
-                <img src="/project-3th.jpg" alt="project-3th"/>
+                <img src='project-3th.jpg' alt="project-3th"/>
               </a>
               </div>
               <div className="project-fourth">
               <a href="https://rafalkuchta.github.io/Game-Memory-2/">
-                <img src="/project-4th.jpg" alt="project-4th"/>
+                <img src="project-4th.jpg" alt="project-4th"/>
               </a>
             </div>
           </div>
