@@ -133,7 +133,7 @@ class App extends Component {
           <h3>Strona w przygotowaniu</h3>
             <div className="projectsWrap">
               <div className="project-first">
-                <img src="project-first.JPG" alt="./../media/project-first"/>
+                <img src="project-first.jpg" alt="project-first"/>
               </div>
               <div className="project-secound">
               {/* <img src="project-first.JPG" alt="project-first"/> */}
