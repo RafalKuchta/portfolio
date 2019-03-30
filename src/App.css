@@ -432,12 +432,12 @@ section.projects .projectsWrap>div{
 }
 
 section.projects .projectsWrap>div img{
-  width: 680px;
+  width: 650px;
   transition: .5s;
 }
 
 section.projects .projectsWrap>div img:hover{
-  transform: scale(1.2) rotate(5deg)
+  transform: scale(1.1) /*rotate(5deg) */
 }
 
 
