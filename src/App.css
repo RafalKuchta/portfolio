@@ -14,7 +14,7 @@ html {
 .header {
   height: 100vh;
   width: 100%;
-  background-image: url('/header.jpg');
+  background-image: url('./../media/header.jpg');
 
   background-position: center;
   background-size: 1950px 1300px;
@@ -488,7 +488,7 @@ section.aboutMe h3{
 
  footer{
   min-height: 400px;
-  background-image: url('/header.jpg');
+  background-image: url('./../media/header.jpg');
   background-position: bottom;
   background-attachment: fixed;
   background-color: #1F2749;
