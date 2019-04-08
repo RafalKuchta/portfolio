@@ -13,7 +13,7 @@ html {
 
 .header {
   height: 100vh;
-  width: 100%;
+  /* width: 100vw; */
   background-image: url("images/header.jpg");
 
   background-position: center;
@@ -41,6 +41,7 @@ html {
   height: 100%;
   background-color: rgb(25, 7, 44);
   opacity: .6;
+  overflow: hidden;
 }
 
 .wrapper {
@@ -98,23 +99,26 @@ html {
 }
 
 
+
+
+
 /* nav */
 nav {
   position: fixed;
   top: -100%;
   height: 100vh;
-  width: 100%;
+  width: 10vw;
   transition: .5s ease;
   opacity: 1;
-  /* background-color: rgb(25, 7, 44); */
   z-index: 3;
+  overflow: hidden;
 }
 
 nav.action {
   position: fixed;
   top: 0;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   background-color: #202749;
   transition: .6s;
   /* opacity: 1; */
@@ -292,7 +296,6 @@ nav p {
   position: fixed;
   top: 25px;
   right: 40px;
-  /* background-color: #ddd; */
   width: 40px;
   height: 30px;
   cursor: pointer;
@@ -527,3 +530,132 @@ footer i:hover {
 
 
 /* /////////////////////////Foot/////////////////////////////////// */
+
+
+
+@media(max-width: 1024px){
+  .header {
+    height: 100vh;
+    background-image: url("images/header.jpg");
+  
+    background-position: center;
+    background-size: 1950px 1300px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+  .wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .wrapper h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    margin: 15px;
+    font-size: 60px;
+  }
+
+  .burger {
+    position: absolute;
+ }
+
+ .menu {
+  width: 80vw;
+}
+
+
+.btn {
+  font-size: 30px;
+}
+
+.smenu {
+  max-height: 0.3s;
+}
+
+.smenu a {
+  padding: 14px 26px;
+  font-size: 20px;
+}
+}
+
+@media(max-width: 700px){
+  .wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+  }
+
+  .wrapper h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    margin: 15px;
+    font-size: 60px;
+  }
+  .burger {
+    position: absolute;
+ }
+
+ .menu {
+  width: 80vw;
+}
+
+
+.btn {
+  font-size: 35px;
+}
+
+.smenu {
+  max-height: 0.3s;
+}
+
+.smenu a {
+  padding: 14px 26px;
+  font-size: 20px;
+}
+}
+
+@media(max-width: 361px){
+  .wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+  }
+
+  .wrapper h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    margin: 15px;
+    font-size: 50px;
+  }
+  .wrapper button {
+    font-size: 15px;
+  }
+
+  .burger {
+    position: absolute;
+ }
+
+ .menu {
+  width: 80vw;
+}
+
+
+.btn {
+  font-size: 25px;
+}
+
+.smenu {
+  max-height: 0.3s;
+}
+
+.smenu a {
+  padding: 14px 26px;
+  font-size: 20px;
+}
+
+}

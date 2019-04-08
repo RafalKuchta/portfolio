@@ -70,7 +70,7 @@ class App extends Component {
                 <a href="#message" className="btn projects">Projekty </a>
                 <div className="smenu">
                     <a onClick={this.scrollToMyProjects} href="#">Nowe</a>
-                    <a href="#">Wysłane</a>
+                    <a href="#">W trakcie tworzenia...</a>
                 </div>
             </li>
 
@@ -98,8 +98,8 @@ class App extends Component {
     </div>
         
         <div className="wrapper">
-        <h1>Development</h1>
-        <p>Poznaj moje projekty</p>
+        <h1>Rafał Kuchta</h1>
+        <p>Frontend Developer</p>
         <button onClick={this.scrollToMyProjects} className="projects">Moje projekty</button>
         <button onClick={this.scrollToAboutMe} className="about">O mnie</button>
         </div>
@@ -148,6 +148,27 @@ class App extends Component {
               <div className="project-fourth">
               <a href="https://rafalkuchta.github.io/Game-Memory-2/">
                 <img src="project-4th.jpg" alt="project-4th"/>
+              </a>
+            </div>
+
+            <div className="project-fourth">
+              <a href="https://rafalkuchta.github.io/menu-project/">
+                <img src="project-5th.jpg" alt="project-5th"/>
+              </a>
+            </div>
+            <div className="project-fourth">
+              <a href="https://rafalkuchta.github.io/JS-OPP-game/index.html">
+                <img src="project-6th.jpg" alt="project-6th"/>
+              </a>
+            </div>
+            <div className="project-fourth">
+              <a href="https://rafalkuchta.github.io/flexbox-trolls//">
+                <img src="project-7th.jpg" alt="project-7th"/>
+              </a>
+            </div>
+            <div className="project-fourth">
+              <a href="https://rafalkuchta.github.io/dot-span/index.html">
+                <img src="project-8th.jpg" alt="project-8th"/>
               </a>
             </div>
           </div>
