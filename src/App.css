@@ -426,7 +426,7 @@ section.projects .projectsWrap{
 }
 
 section.projects .projectsWrap>div{
-  height: 350px;
+  height: 140px;
   width: 650px;
   background-color: #fff;
   margin:20px;
@@ -435,7 +435,7 @@ section.projects .projectsWrap>div{
 }
 
 section.projects .projectsWrap>div img{
-  width: 650px;
+  width: 260px;
   transition: .5s;
 }
 
@@ -618,19 +618,20 @@ footer i:hover {
 }
 }
 
-@media(max-width: 361px){
+@media(max-width: 366px){
+
   .wrapper {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -50%);
   }
 
   .wrapper h1 {
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     margin: 15px;
-    font-size: 50px;
+    font-size: 45px;
   }
   .wrapper button {
     font-size: 15px;
