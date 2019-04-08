@@ -426,7 +426,7 @@ section.projects .projectsWrap{
 }
 
 section.projects .projectsWrap>div{
-  height: 140px;
+  height: 350px;
   width: 650px;
   background-color: #fff;
   margin:20px;
@@ -435,7 +435,7 @@ section.projects .projectsWrap>div{
 }
 
 section.projects .projectsWrap>div img{
-  width: 260px;
+  width: 650px;
   transition: .5s;
 }
 
@@ -579,6 +579,15 @@ footer i:hover {
   padding: 14px 26px;
   font-size: 20px;
 }
+
+section.projects .projectsWrap>div{
+  height: 150px;
+  width: 650px;
+}
+
+section.projects .projectsWrap>div img{
+  width: 270px;
+}
 }
 
 @media(max-width: 700px){
@@ -615,6 +624,14 @@ footer i:hover {
 .smenu a {
   padding: 14px 26px;
   font-size: 20px;
+}
+section.projects .projectsWrap>div{
+  height: 170px;
+  width: 650px;
+}
+
+section.projects .projectsWrap>div img{
+  width: 320px;
 }
 }
 
@@ -657,6 +674,15 @@ footer i:hover {
 .smenu a {
   padding: 14px 26px;
   font-size: 20px;
+}
+
+section.projects .projectsWrap>div{
+  height: 150px;
+  width: 650px;
+}
+
+section.projects .projectsWrap>div img{
+  width: 270px;
 }
 
 }
